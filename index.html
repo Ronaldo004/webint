@@ -6,17 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- bootstraplink -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 
 <body>
+
     <!-- Header -->
-    <header class="header">
+    <header class="container-fluid header">
         <div class="left">
             <div class="h-content">
                 <h5>Trusted by 700,500 website owner</h5>
@@ -28,7 +35,7 @@
                     <li><img src="./images/cloud_done.png"> Free SSL Certificates For All Websites</li>
                     <li><img src="./images/cloud_done.png"> 30-day Money back Guarantee</li>
                 </ul>
-                <button class="btn1">Get started now</button>
+                <button class="button">Get started now</button>
             </div>
         </div>
         <div class="right">
@@ -43,102 +50,271 @@
         <p>core competencies through client-centered core competencies</p>
     </div>
 
-    <div class="cartsec">
-        
-        <div class="card1">
-            <div class="hrtagdiv"><hr></div>
+
+
+    <div class="container">
+        <div class="row">
             
-            <div class="head1"><img class="Cart-head-image" src="./images/Group 44.png" alt=""> <span>$ 5.99<sub>/mo</sub></span></div>
-            <div class="description">
-                <h4>Starter</h4>
-                <p>
-                    high performance, low cost <br>hosting with SSD for the perfect <br>starrer plan
-                </p>
-            </div>
-            
-            <div class="contentli">
-                <ul>
-                <li><img src="./images/carlimg/hard-drive.png" alt=""><p style="font-weight:bold ;">50 GB</p><p>SSD Disk space</p></li>
-                <li><img src="./images/carlimg/wifi.png" alt=""><p style="font-weight:bold ;">Unmetered </p><p>bandwidth</p></li>
-                <li><img src="./images/carlimg/browser.png" alt=""><p style="font-weight:bold ;">Host 2 </p><p>Websites hosted</p></li>
-                <li><img src="./images/carlimg/mail-bulk.png" alt=""><p style="font-weight:bold ;">Unlimited </p><p>Emails Account</p></li>
-                <li><img src="./images/carlimg/globe.png" alt=""><p style="font-weight:bold ;">Free </p><p>Domain name</p></li>
-                <li><img src="./images/carlimg/headset.png" alt=""><p style="font-weight:bold ;">24/7 </p><p>Technical support</p></li>
-                <li><img src="./images/carlimg/upload.png" alt=""><p style="font-weight:bold ;">99.9% </p><p>Up time Guarantee</p></li></ul>
-            </div>
-            <div class="cardfooter">
-                <h3>Full specification →</h3>
-            </div>
-            <div class="btn-sec">
-                <button>Purchase now</button>
-            </div>
-
-
-
-        </div>
-        <div class="card1">
-            <div class="hrtagdiv"><hr></div>
-            <div class="head1"><img  class="Cart-head-image" src="./images/Group 20.png" alt=""><span>$ 5.99<sub>/mo</sub></span></div>
-            <div class="description">
-                <h4>Starter</h4>
-                <p>
-                    high performance, low cost <br>hosting with SSD for the perfect <br>starrer plan
-                </p>
-
+            <div class="col-3 col-md-3  col-sm-12 col-12  offset-0 offset-md-1 offset-lg-1 mt-4  mt-lg-0 mt-sm-3 mt-md-0  car1 align-items-center">
                 
+                <div class="sec3inner">
+
+                    <div class="sec3headdata">
+                        <img class="Cart-head-image" src="./images/Group 44.png" alt="">
+
+
+                        <h4>$ 5.99<sub>/mo</sub></h4>
+                    </div>
+
+                    <div class="sec3cardhead">
+                        <p>Starter</p>
+                    </div>
+                    <div class="descriptionsec2">
+                        <p>
+                            high performance, low cost hosting with SSD for the perfect starrer plan
+                        </p>
+                    </div>
+
+
+                    <ul class="sec2clist">
+                        <li><img src="./images/carlimg/hard-drive.png" alt="">
+                            <p style="font-weight:bold ;">50GB</p>
+                            <p>SSD Disk space</p>
+                        </li>
+                        <li><img src="./images/carlimg/wifi.png" alt="">
+                            <p style="font-weight:bold ;">Unmetered </p>
+                            <p>bandwidth</p>
+                        </li>
+                        <li><img src="./images/carlimg/browser.png" alt="">
+                            <p style="font-weight:bold ;">Host2 </p>
+                            <p>Websites hosted</p>
+                        </li>
+                        <li><img src="./images/carlimg/mail-bulk.png" alt="">
+                            <p style="font-weight:bold ;">Unlimited </p>
+                            <p>Emails Account</p>
+                        </li>
+                        <li><img src="./images/carlimg/globe.png" alt="">
+                            <p style="font-weight:bold ;">Free </p>
+                            <p>Domain name</p>
+                        </li>
+                        <li><img src="./images/carlimg/headset.png" alt="">
+                            <p style="font-weight:bold ;">24/7 </p>
+                            <p>Technical support</p>
+                        </li>
+                        <li><img src="./images/carlimg/upload.png" alt="">
+                            <p style="font-weight:bold ;">99.9% </p>
+                            <p>Up time Guarantee</p>
+                        </li>
+                    </ul>
+                    <div class="cardfooter">
+                        <h3>Full specification →</h3>
+                    </div>
+                    <div class="sec2cbtn">
+                        <button>Purchase now</button>
+                    </div>
+                </div>
             </div>
 
-            <div class="contentli">
-                <ul>
-                <li><img src="./images/carlimg/hard-drive.png" alt=""><p style="font-weight:bold ;">50 GB</p><p>SSD Disk space</p></li>
-                <li><img src="./images/carlimg/wifi.png" alt=""><p style="font-weight:bold ;">Unmetered </p><p>bandwidth</p></li>
-                <li><img src="./images/carlimg/browser.png" alt=""><p style="font-weight:bold ;">Host 2 </p><p>Websites hosted</p></li>
-                <li><img src="./images/carlimg/mail-bulk.png" alt=""><p style="font-weight:bold ;">Unlimited </p><p>Emails Account</p></li>
-                <li><img src="./images/carlimg/globe.png" alt=""><p style="font-weight:bold ;">Free </p><p>Domain name</p></li>
-                <li><img src="./images/carlimg/headset.png" alt=""><p style="font-weight:bold ;">24/7 </p><p>Technical support</p></li>
-                <li><img src="./images/carlimg/upload.png" alt=""><p style="font-weight:bold ;">99.9% </p><p>Up time Guarantee</p></li></ul>
+
+
+
+
+
+
+
+            <div class="col-3 col-md-3 col-12 ms-0 col-sm-12 ms-sm-0 ms-md-4 ms-lg-4 mt-3 mt-sm-4  mt-lg-0 mt-md-0 car1 align-items-center">
+                <div class="sec3inner">
+
+                    <div class="sec3headdata">
+                        <img class="Cart-head-image" src="./images/Group 44.png" alt="">
+
+
+                        <h4>$ 5.99<sub>/mo</sub></h4>
+                    </div>
+
+                    <div class="sec3cardhead">
+                        <p>Starter</p>
+                    </div>
+                    <div class="descriptionsec2">
+                        <p>
+                            high performance, low cost hosting with SSD for the perfect starrer plan
+                        </p>
+                    </div>
+
+
+                    <ul class="sec2clist">
+                        <li><img src="./images/carlimg/hard-drive.png" alt="">
+                            <p style="font-weight:bold ;">50GB</p>
+                            <p>SSD Disk space</p>
+                        </li>
+                        <li><img src="./images/carlimg/wifi.png" alt="">
+                            <p style="font-weight:bold ;">Unmetered </p>
+                            <p>bandwidth</p>
+                        </li>
+                        <li><img src="./images/carlimg/browser.png" alt="">
+                            <p style="font-weight:bold ;">Host2 </p>
+                            <p>Websites hosted</p>
+                        </li>
+                        <li><img src="./images/carlimg/mail-bulk.png" alt="">
+                            <p style="font-weight:bold ;">Unlimited </p>
+                            <p>Emails Account</p>
+                        </li>
+                        <li><img src="./images/carlimg/globe.png" alt="">
+                            <p style="font-weight:bold ;">Free </p>
+                            <p>Domain name</p>
+                        </li>
+                        <li><img src="./images/carlimg/headset.png" alt="">
+                            <p style="font-weight:bold ;">24/7 </p>
+                            <p>Technical support</p>
+                        </li>
+                        <li><img src="./images/carlimg/upload.png" alt="">
+                            <p style="font-weight:bold ;">99.9% </p>
+                            <p>Up time Guarantee</p>
+                        </li>
+                    </ul>
+                    <div class="cardfooter">
+                        <h3>Full specification →</h3>
+                    </div>
+                    <div class="sec2cbtn">
+                        <button>Purchase now</button>
+                    </div>
+                </div>
             </div>
-            <div class="cardfooter">
-                <h3>Full specification →</h3>
+            <div class="col-3 col-md-3 col-12 ms-0  col-sm-12 ms-sm-0 ms-md-4 mt-sm-4 mt-3  mt-lg-0 mt-md-0 ms-lg-4  car1 align-items-center">
+                <div class="sec3inner">
+
+                    <div class="sec3headdata">
+                        <img class="Cart-head-image" src="./images/Group 44.png" alt="">
+
+
+                        <h4>$ 5.99<sub>/mo</sub></h4>
+                    </div>
+
+                    <div class="sec3cardhead">
+                        <p>Starter</p>
+                    </div>
+                    <div class="descriptionsec2">
+                        <p>
+                            high performance, low cost hosting with SSD for the perfect starrer plan
+                        </p>
+                    </div>
+
+
+                    <ul class="sec2clist">
+                        <li><img src="./images/carlimg/hard-drive.png" alt="">
+                            <p style="font-weight:bold ;">50GB</p>
+                            <p>SSD Disk space</p>
+                        </li>
+                        <li><img src="./images/carlimg/wifi.png" alt="">
+                            <p style="font-weight:bold ;">Unmetered </p>
+                            <p>bandwidth</p>
+                        </li>
+                        <li><img src="./images/carlimg/browser.png" alt="">
+                            <p style="font-weight:bold ;">Host2 </p>
+                            <p>Websites hosted</p>
+                        </li>
+                        <li><img src="./images/carlimg/mail-bulk.png" alt="">
+                            <p style="font-weight:bold ;">Unlimited </p>
+                            <p>Emails Account</p>
+                        </li>
+                        <li><img src="./images/carlimg/globe.png" alt="">
+                            <p style="font-weight:bold ;">Free </p>
+                            <p>Domain name</p>
+                        </li>
+                        <li><img src="./images/carlimg/headset.png" alt="">
+                            <p style="font-weight:bold ;">24/7 </p>
+                            <p>Technical support</p>
+                        </li>
+                        <li><img src="./images/carlimg/upload.png" alt="">
+                            <p style="font-weight:bold ;">99.9% </p>
+                            <p>Up time Guarantee</p>
+                        </li>
+                    </ul>
+                    <div class="cardfooter">
+                        <h3>Full specification →</h3>
+                    </div>
+                    <div class="sec2cbtn">
+                        <button>Purchase now</button>
+                    </div>
+                </div>
             </div>
-            <div class="btn-sec">
-                <button>Purchase now</button>
-            </div>
-       
-       
-        </div>
-        <div class="card1">
-            <div class="hrtagdiv"><hr></div>
-            <div class="head1"><img class="Cart-head-image"  src="./images/Group 19.png" alt=""><span>$ 5.99<sub>/mo</sub></span></div>
-            <div class="description">
-                <h4>Starter</h4>
-                <p>
-                    high performance, low cost <br>hosting with SSD for the perfect <br>starrer plan
-                </p>
-            </div>
-            <div class="contentli">
-                <ul>
-                <li><img src="./images/carlimg/hard-drive.png" alt=""><p style="font-weight:bold ;">50 GB</p><p>SSD Disk space</p></li>
-                <li><img src="./images/carlimg/wifi.png" alt=""><p style="font-weight:bold ;">Unmetered </p><p>bandwidth</p></li>
-                <li><img src="./images/carlimg/browser.png" alt=""><p style="font-weight:bold ;">Host 2 </p><p>Websites hosted</p></li>
-                <li><img src="./images/carlimg/mail-bulk.png" alt=""><p style="font-weight:bold ;">Unlimited </p><p>Emails Account</p></li>
-                <li><img src="./images/carlimg/globe.png" alt=""><p style="font-weight:bold ;">Free </p><p>Domain name</p></li>
-                <li><img src="./images/carlimg/headset.png" alt=""><p style="font-weight:bold ;">24/7 </p><p>Technical support</p></li>
-                <li><img src="./images/carlimg/upload.png" alt=""><p style="font-weight:bold ;">99.9% </p><p>Up time Guarantee</p></li></ul>
-            </div>
-            <div class="cardfooter">
-                <h3>Full specification →</h3>
-            </div>
-            <div class="btn-sec">
-                <button>Purchase now</button>
-            </div>
-        
         </div>
 
 
     </div>
+    </div>
 
-    <div class="section4">
+
+
+   <div class="sec4start">
+    <h1>Best Hosting feature for you</h1>
+    <p class="para1">These feature comes standard in all our hosting plannes. Dynamicaly extended</p>
+    <p>Imperative through open-source quickly nichy market</p>
+    
+    <div class="container sec4cardM">
+        <div class="row">
+            <div class="col-3 offset-1 cardsec4">
+                <div class="sec4head"><img src="./images/sec4 img/.png" alt=""></div>
+                <h4>Custom control pannel</h4>
+                <p id="sec4-card-p">Our intutive control pannel gives you</p>
+                <p >admin access to all of yours</p>
+                <p >DreamHost product easily</p>
+            </div>
+            <div class="col-3 ms-4 cardsec4">
+                <div class="sec4head"><img src="./images/sec4 img/thumbs-up.png" alt=""></div>
+                <h4>Real life human beings</h4>
+                <p id="sec4-card-p">Tech veterans,greek and nerds all are </p>
+                <p> standing by to optimize your</p>
+                <p>experience Whether</p>
+            
+            </div>
+            <div class="col-3 ms-4  cardsec4">
+                <div class="sec4head"><img src="./images/sec4 img/mouse.png" alt=""></div>
+            <h4>1-click transfer</h4>
+            <p id="sec4-card-p">No need to digit into a bunch of</p>
+            <p> documents easily installed web app</p>
+            <p>like wordpress jomia</p>
+            </div>
+
+            <div class="col-3 offset-1 mt-3 cardsec4">
+                <div class="sec4head"><img src="./images/sec4 img/clock-desk.png" alt=""></div>
+                <h4>100% upto Guarantee</h4>
+                <p id="sec4-card-p">With multiple datacenters,location</p>
+                <p>redundant cooling emergency</p>
+                <p>generator and monitoring</p>
+            </div>
+
+            
+            <div class="col-3 ms-4 mt-3 cardsec4">
+                <div class="sec4head"><img src="./images/sec4 img/hard-drive.png" alt=""></div>
+                <h4>Solid State Drive (SSD)</h4>
+                <p id="sec4-card-p">With SSD your website catching,and </p>
+                <p> database query are faster by our</p>
+                <p>calculations</p>
+            </div>
+             
+            <div class="col-3 mt-3 ms-4 cardsec4">
+                <div class="sec4head"><img src="./images/sec4 img/trophy.png" alt=""></div>
+                <h4>1-click transfer</h4>
+                <p id="sec4-card-p">No need to digit into a bunch of</p>
+                <p> documents easily installed web app</p>
+                <p>like wordpress jomia</p>
+            </div>
+
+
+            
+          
+        </div>
+    </div>
+
+
+
+   </div>
+
+
+  
+
+    <!-- <div class="section4">
         <h1>Best Hosting feature for you</h1>
         <p class="para1">These feature comes standard in all our hosting plannes. Dynamicaly extended</p>
         <p>Imperative through open-source quickly nichy market</p>
@@ -198,10 +374,10 @@
 
         </div>
     
-    </div>
+    </div> -->
 
 
-    <div class="section5">
+    <!-- <div class="section5">
 
         <div class="sec5left">
             <h1 >Need someone help ?</h1>
@@ -321,7 +497,11 @@
    
 
 
+<!-- bootstrapscript -->
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
 </body>
 
