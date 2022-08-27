@@ -1,67 +1,20 @@
-@media (min-width:1000px) and (max-width:1520px){
-/* header */
-    .left{
-        /* border: solid; */
-        margin-top: 1rem;
-        
-    }
-    .h-content{
-        width: 45vw;
-        /* border: solid; */
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        align-items: center;
-        position: relative;
-        left: -2rem;
-    }
-    .h-content>h5{
-        position: relative;
-        font-size: 1.9rem;
-        left:-4px;
-    }
-    .h-content>h2{
-        font-size: 2rem;
-    }
-    .head-list li
-    {
-        /* border: solid; */
-        font-size: 1rem;
-        position: relative;
-        left: -6rem;
-        
-    }
-    .button{
-       width: 7rem;
-       height: 2.5rem;
-       font-size: 14px;
-       position: relative;
-       left: -10.2rem;
-       
 
-    }
-    .right>img{
-        width: 30vw;
-        height: 40vh;
-        /* border: solid; */
-        position: relative;
-        top:1rem
-    
-    }
-}
 @media (min-width:600px) and (max-width:850px)
 {
-    /* .header */
+   
     .header{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         width: fit-content;
-        border: solid;
+        /* border: solid; */
         height: 90vh;
         
        
         
+    }
+    .hr{
+        display: none;
     }
     .left{
         /* border: solid; */
@@ -70,13 +23,21 @@
         width: 90vw;
         position: relative;
         left:-0.8rem;
-        top:-3rem;
+        top:-1rem;
         
+    }
+    .buttonsec{
+        /* border: solid; */
+        position: relative;
+         top:-7rem;
+        left: -1rem;
     }
     .h-content{
         height: 50vh;
-        width: 45vw;
+        width: 50vw;
+        padding-top: 1rem;
         /* border: solid; */
+        left: 3rem;
       
     }
     .h-content>h5{
@@ -84,21 +45,20 @@
        
         
     }
-    .h-content>h2{
-        
-    }
+ 
     .head-list li
     {
         /* border: solid; */
         font-size: 1rem;
         position: relative;
        
+       
         
     }
-    .button{
+    .buttonf{
        width: 7rem;
        height: 2rem;
-      
+      left:6rem;
        font-size: 14px;
       
        
@@ -106,7 +66,7 @@
     }
     .right>img{
         width: 30vw;
-        height: 30vh;
+        height: 20vh;
         /* border: solid; */
         position: relative;
         top:-1rem;
@@ -117,7 +77,7 @@
     /* section2 */
     .title1
     {
-        border: solid;
+        /* border: solid; */
         width: auto;
     }
     .title1>:nth-child(1){
@@ -125,8 +85,221 @@
         font-size: 25px;
     
     }
-   
+    .sec5vector1{
+        width: 17rem;
+        height: 20rem;
+    }
+    .sec5left{
+        height: 30vh;
+    }
+    .sec5left h1{
+        font-size: 20px;
+    }
+    .sec5contact{
+        height: 9vh;
+    }
+    .sec5contact ul{
+        height: 9vh;
+        display: flex;
+        flex-direction: column;
+        left:0rem;
+        top:2rem;
+        padding-left: 1rem;
+    }
+    .sec5contact>:nth-child(1){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec5contact>:nth-child(2){
+        display: flex;
+        justify-content: center;
+    }
+    .sec5para{
+        font-size: 14px;
+    }
+    .sec5left>:nth-child(5){
+        font-size: 14px;
+    }
 
+    .sec5contact ul{
+        height: 2vh;
+    }
+    .sec6head{
+        /* border: solid; */
+        width: 90vw;
+    }
+    .sec6head h2{
+        /* border: solid; */
+        width: 90vw;
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        
+    }
+  .sec6head>:nth-child(2){
+    /* border: solid; */
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    
+  }
+  .sec6head>:nth-child(3){
+    /* border: solid; */
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    
+  }
+    .section7{
+        flex-direction: column;
+        height: 110vh;
+        margin-top: 5rem;
+    }
+    .sec7left{
+        width: 96vw;
+    }
+    .sec7left>h2{
+        /* border: solid; */
+        font-size: 35px;
+        
+        text-align: center;
+    
+    }
+    .sec7left>p{
+        font-size: 25px;
+        font-family: 'Roboto';
+        text-align: center;
+    }
+    .btnend{
+      
+        width: 12rem;
+        height: 6vh;
+        font-size: 16px;
+    }
+    .corlg{
+        display:none;
+    }
+    .cormedia{
+        display:block;
+    }
+
+    .sec7cardmedia{
+        width: 70vw;
+        height: 35vh;
+        position: relative;
+        left: 1rem;
+        padding-top:1.6rem ;
+        background: #FFFFFF;
+    border: 1px solid rgba(93, 118, 174, 0.15);
+    border-radius: 20px;
+   
+    
+    }
+    #lastcardmedia{
+        /* border: solid; */
+        position: relative;
+        left: 0.3rem;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec7cardmedia>h4{
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .sec7cardmedia>p{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: solid; */
+    
+    }
+    .mainusersecmeia{
+        position: relative;
+        left: 10rem;
+    }
+    
+    
+    
+    
+    .mainusersec{
+        /* border:solid; */
+        display: flex;
+        justify-content: column;
+        align-items: center;
+        height: 7vh;
+    }
+    .user img{
+        width: 60px;
+        height:60px
+    }
+    
+    .greendot{
+        background-color: #66C206;
+        width: 30px;
+        height: 30px;
+        border-radius: 2rem;
+        display:flex;
+        justify-content: center;
+        position: relative;
+        top:-3.5rem;
+        left:-0.5rem;
+        color: #FFFFFF;
+    }
+    
+    .name>h5{
+        font-size: 14px;
+        position: relative;
+        top:-5rem;
+        left: 5rem;
+        font-family: 'Roboto';
+    }
+    .name>h6{
+        font-size:14px;
+        position: relative;
+        top:-5rem;
+        left:5rem;
+        font-family: 'Roboto';
+    }
+    .greendot{
+        background-color: #66C206;
+        width: 30px;
+        height: 30px;
+        border-radius: 2rem;
+        display:flex;
+        justify-content: center;
+        position: relative;
+        top:-4rem;
+        left:-0.4rem;
+        color: #FFFFFF;
+    }
+    .name>h5{
+        font-size: 18px;
+        position: relative;
+        top:-6rem;
+        left: 5rem;
+        font-family: 'Roboto';
+    }
+    .name>h6{
+        font-size:18px;
+        position: relative;
+        top:-6rem;
+        left:5rem;
+        font-weight: bold;
+        font-family: 'Roboto';
+    }
+     .endbtndiv{
+        display: flex;
+        justify-content: center;
+    }
+    
+   
 }
 @media only  screen and (max-width:599px){
     /* .header */
@@ -137,25 +310,37 @@
        
         
     }
+    .hr{
+        display: none;
+    }
     .left{
         /* border: solid; */
         margin-top: 1rem;
         height: 50vh;
-        width: 100vw;
+        width: 70vw;
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        left:0rem;
-        top:-3rem;
+        left: -1rem;
+        top:-1rem;
         
     }
     .h-content{
-        height: 50vh;
-        width: 60vw;
+        height: 40vh;
+        width: 77vw;
         /* border: solid; */
         left: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       
+    }
+    .buttonsec{
+        /* border: solid; */
+        position: relative;
+       top:-0.2rem;
     }
     .h-content>h5{
         
@@ -172,21 +357,31 @@
         /* border: solid; */
         font-size: 1rem;
         position: relative;
+      
        
         
     }
-    .button{
+    .head-list{
+        /* border: solid; */
+        left: 0.6rem;
+        padding-bottom: auto;
+    }
+   
+   
+    .buttonf{
        width: 7rem;
        height: 2rem;
-      
+      left: 3rem;
+      top: -1rem;
        font-size: 14px;
       
        
 
     }
     .right>img{
-        width: 45vw;
-        height: 25vh;
+        width: 33vw;
+        height: 14vh;
+        
         /* border: solid; */
         position: relative;
         top:-1rem;
@@ -196,26 +391,252 @@
     }
     .title1>:nth-child(1){
       
-        font-size: 17px;
+        font-size: 22px;
+        text-align: center;
     
     }
     .title1>:nth-child(2){
         width: 90vw;
-        font-size: 13px;
+        font-size: 16px;
         /* border:solid; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
+         text-align: center;
     
     }
     .title1>:nth-child(3){
         /* border: solid; */
-        font-size: 13px;
+        font-size: 16px;
         width: 90vw;
+        text-align: center;
     
     }
+    .sec4start{
+        /* border: solid; */
+    }
+    .sec4start>h1{
+        text-align: center;
+    }
+    .para1{
+        text-align: center;
+    }
+    .section5{
+        flex-direction: column;
+    }
+    .sec5right{
+        position: relative;
+        top:1.6rem;
+    }
+    .sec5vector1{
+        padding-top: 1rem;
+        margin-top: 7rem;
+        width: 15rem;
+        height: 15rem;
+    }
+    .sec5left{
+        height: 30vh;
+        width: 100vw;
+    }
+    .sec5contact ul{
+       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec5contact>ul>:nth-child(1){
+       position: relative;
+       left: 1rem;
+      
+    }
+    .sec5left h1
+    {
+        display: flex;
+        justify-content: center;
+        font-size: 1.6rem;
+    }
+    .sec5para{
+       
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .sec5left>:nth-child(5)
+    {   
+        /* border: solid; */
+    
+        text-align: center;
+        font-size: 18px;   
+    }
+    .section6{
+        margin-top: 2rem;
+        /* border: solid; */
+    }
+    .sec6head{
+        width: 90vw;
+    }
+    .sec6head>h2{
+        /* border: solid; */
+        width: 80vw;
+      font-size:2rem;
+      font-weight: bold;
+    }
+    .sec6head>:nth-child(2){
+        /* border: solid; */
+        width: 80vw;
+        font-size: 15px;
+        text-align: center;
+    }
+    .sec6head>:nth-child(3){
+        /* border: solid; */
+        width: 80vw;
+        font-size: 15px;
+        text-align: center;
+    }
+    .section7{
+        flex-direction: column;
+        height: 100vh;
+        padding-top: 5rem;
+    }
+    .sec7left{
+        width: 93vw;
+        
+    }
+  
+    .sec7left>p{
+        font-size: 16px;
+        font-family: 'Roboto';
+       text-align: center;
+        /* border: solid; */
+      
+    }
+    .btnend{
+      
+        width: 10rem;
+        height: 5vh;
+        font-size: 14px;
+    }
+  
+    .sec7left>h2{
+        
+        font-size: 22px;
+       text-align: center;
+    
+    }
+ 
+    .btnend{
+      
+        width: 10rem;
+        height: 5vh;
+        font-size: 14px;
+    }
+    .sec7rightcart{
+        /* border: solid; */
+        width:96vw ;
+        margin-top: -2rem;
+        padding-top: 1rem;
+        
+        
+    }
+
+    .corlg{
+        display:none;
+    }
+    .cormedia{
+        display:block;
+     
+      
+    }
+    .endbtndiv{
+        /* border: solid; */
+        display: flex;
+        justify-content: center;
+    }
+    .sec7cardmedia{
+        width: 90vw;
+        height: 35vh;
+        
+        position: relative;
+        left: -0.8rem;
+        padding-top:3rem ;
+        background: #FFFFFF;
+    border: 1px solid rgba(93, 118, 174, 0.15);
+    border-radius: 20px;
+    
+    
+    }
+    #lastcardmedia{
+        /* border: solid; */
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+      
+       
+    }
+    .sec7cardmedia>h4{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .sec7cardmedia>p{
+        font-size: 15px;
+        /* border: solid; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .mainusersecmeia{
+        position: relative;
+        left: 8rem;
+    }
+    
+    
+    
+    
+    .mainusersec{
+        /* border:solid; */
+        display: flex;
+        justify-content: column;
+        align-items: center;
+        height: 7vh;
+    }
+    .user img{
+        width: 60px;
+        height:60px
+    }
+    
+    .greendot{
+        background-color: #66C206;
+        width: 30px;
+        height: 30px;
+        border-radius: 2rem;
+        display:flex;
+        justify-content: center;
+        position: relative;
+        top:-3.5rem;
+        left:-0.5rem;
+        color: #FFFFFF;
+    }
+    
+    .name>h5{
+        font-size: 14px;
+        position: relative;
+        top:-5rem;
+        left: 5rem;
+        font-family: 'Roboto';
+    }
+    .name>h6{
+        font-size:14px;
+        position: relative;
+        top:-5rem;
+        left:5rem;
+        font-weight: bold;
+        font-family: 'Roboto';
+    }
+   
 }
+
+
 /* bootstrap sec3cards */
 @media (min-width:576px) and (max-width:767px)
 {
@@ -233,11 +654,11 @@ width: 50vw;
     height: 34px;
 }
 .sec2clist>li>p{
-    font-size: 1.3rem;
+    font-size: 16px;
 }
 .car1{
     /* border: solid; */
-    height: 80vh;
+    height: 90vh;
 }
 .sec3inner{
     /* border: solid; */
@@ -251,12 +672,12 @@ width: 50vw;
     
 }
 .sec3headdata img{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 
 }
 .sec3headdata>:nth-child(2){
-    font-size: 45px;
+    font-size: 30px;
    
 }
 .sec3cardhead{
@@ -264,14 +685,14 @@ width: 50vw;
     width:60vw ;
 }
 .sec3cardhead>p{
-    font-size: 45px;
+    font-size: 30px;
 }
 .descriptionsec2{
     width:60vw;
     /* border: solid; */
 }
 .descriptionsec2 > p{
-    font-size: 25px;
+    font-size: 18px;
 
 }
 .sec2clist{
@@ -284,7 +705,7 @@ width: 50vw;
     width: 60vw;
 }
 .cardfooter h3{
-    font-size: 35px;
+    font-size: 25px;
 }
 .sec2cbtn>button{
     height: 5vh;
@@ -292,8 +713,51 @@ width: 50vw;
     font-size: 24px;
 }
 .container{
-    border: solid;
+    /* border: solid; */
 }
+.sec4head img {
+    margin-top: 1rem;
+    width: 50px;
+    /* border: solid; */
+}
+
+#sec4-card-p {
+    font-size: 19px;
+    
+}
+.cardsec4>:nth-child(4) {
+    font-size: 0.9rem;
+    font-size: 19px;
+}
+.cardsec4>:nth-child(5) {
+    font-size: 0.9rem;
+    font-size: 19px;
+}
+.hr{
+    display: none;
+}
+.sec4start>h1 
+{
+    font-size:2rem;
+}
+.para1 
+{
+    font-size:17px; 
+}
+
+.sec4start>:nth-child(3) 
+{
+    font-size: 17px;
+}
+.cardsec4{
+    padding-top:4rem;
+    height: 40vh;
+}
+.cardsec4 h4{
+    font-size: 22px;
+}
+
+
 
 }
 
@@ -315,7 +779,7 @@ position: relative;
     height: 28px;
 }
 .sec2clist>li>p{
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 .car1{
     /* border: solid; */
@@ -374,6 +838,51 @@ position: relative;
     height: 4vh;
     width: 38vw;
     font-size: 14px;
+}
+
+.sec4head img {
+    margin-top: 1rem;
+    width: 40px;
+    /* border: solid; */
+}
+#sec4-card-p {
+
+
+    font-size: 17px;
+    display: flex;
+    position: relative;
+    text-align: center;
+   
+}
+.cardsec4>:nth-child(4) {
+    font-size: 17px;
+    text-align: center;
+}
+.cardsec4>:nth-child(5) {
+    font-size: 17px;
+    text-align: center;
+}
+.cardsec4{
+    padding-top:4rem;
+    height: 40vh;
+}
+.sec4start>h1 
+{
+    font-size:2rem;
+}
+.para1 
+{
+    font-size:14px; 
+}
+.cardsec4 h4{
+    font-size: 22px;
+
+}
+
+.sec4start>:nth-child(3) 
+{
+    font-size: 14px;
+    text-align: center;
 }
 
 }

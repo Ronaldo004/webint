@@ -18,6 +18,97 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+<!-- accordian internal css -->
+    <style>
+       
+        .accordion-button::after {
+            background-image: url("./images/sec6img/+.svg");
+            background-position: center;
+            
+
+        }
+
+     
+
+        .accordion-button:not(.collapsed)::after {
+            background-image: url("./images/sec6img/-.svg");
+            background-position: center ;
+           
+        }
+
+        .accordion-button:not(.collapsed) {
+  background-color:#66C206;;
+  
+}
+.accordion-button:not(.collapsed)>p {
+  
+  color: #FFFFFF;
+}
+
+.accordion-button {
+  background-color:#FFFFFF;
+  
+  
+}
+       .accordion-button{
+        /* border: solid; */
+        height: 3vh;
+
+       }
+       .accbtn
+       {
+        border:1px solid #5B5858;
+        width: 70vw;
+
+       }
+        .accbtn p {
+            margin-top: 1rem;
+           
+            font-size: 10px;
+            color:#5B5858;
+            font-weight: lighter;
+
+
+        }
+        .accbody{
+            border: 1px solid #5B5858;
+            background-color: #FAFAFA;
+            width: 70vw;
+            
+        }
+        .accbody>p{
+          
+            /* border: solid; */
+        }
+        .accbtn2{
+           
+            margin-top:7px;
+            border:1px solid #5B5858;
+            height: 3vh;
+            width: 70vw;
+        }
+        .accbtn2 p{
+            font-size: 10px;
+            margin-top: 1rem;
+        }
+        .accbody{
+            height: 25vh;
+        }
+        .accordion-body>:nth-child(1){
+            font-size: 13px;
+        }
+        .acccard{
+            /* border: solid; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+      
+        
+
+    </style>
+
 </head>
 
 <body>
@@ -35,29 +126,38 @@
                     <li><img src="./images/cloud_done.png"> Free SSL Certificates For All Websites</li>
                     <li><img src="./images/cloud_done.png"> 30-day Money back Guarantee</li>
                 </ul>
-                <button class="button">Get started now</button>
+                
             </div>
+            <div class="buttonsec">
+            <button class="buttonf">Get started now</button>
+        </div>
         </div>
         <div class="right">
 
 
-            <img src="./images/hero-joomla-hosting 1.png" alt="">
+            <img src="./images/hero-joomla-hosting 1.png" alt="" class="img-fluid">
         </div>
     </header>
+
+    <!-- Section 2 -->
     <div class="title1">
         <h1>Chosse Your Web Hosting Plan </h1>
         <p>professional hosting at an affordable price distinctively recaptulize priciple-centered </p>
         <p>core competencies through client-centered core competencies</p>
     </div>
 
-
+ <!-- section 3 -->
 
     <div class="container">
-        <div class="row">
+    
+        
+        <div class="row cardrow">
+
             
-            <div class="col-3 col-md-3  col-sm-12 col-12  offset-0 offset-md-1 offset-lg-1 mt-4  mt-lg-0 mt-sm-3 mt-md-0  car1 align-items-center">
-                
+            <div class="col-3 col-lg-3 col-md-3  col-sm-12 col-12  offset-0 offset-md-1 offset-lg-1 mt-4  mt-lg-0 mt-sm-3 mt-md-0  car1 align-items-center">
+        
                 <div class="sec3inner">
+                    <div class="hr"><hr/></div>   
 
                     <div class="sec3headdata">
                         <img class="Cart-head-image" src="./images/Group 44.png" alt="">
@@ -78,31 +178,31 @@
 
                     <ul class="sec2clist">
                         <li><img src="./images/carlimg/hard-drive.png" alt="">
-                            <p style="font-weight:bold ;">50GB</p>
+                            <p style="font-weight:bold  ; color:black;">50GB</p>
                             <p>SSD Disk space</p>
                         </li>
                         <li><img src="./images/carlimg/wifi.png" alt="">
-                            <p style="font-weight:bold ;">Unmetered </p>
+                            <p style="font-weight:bold ; color:black;">Unmetered </p>
                             <p>bandwidth</p>
                         </li>
                         <li><img src="./images/carlimg/browser.png" alt="">
-                            <p style="font-weight:bold ;">Host2 </p>
+                            <p style="font-weight:bold ; color:black; ">Host2 </p>
                             <p>Websites hosted</p>
                         </li>
                         <li><img src="./images/carlimg/mail-bulk.png" alt="">
-                            <p style="font-weight:bold ;">Unlimited </p>
+                            <p style="font-weight:bold ; color:black;">Unlimited </p>
                             <p>Emails Account</p>
                         </li>
                         <li><img src="./images/carlimg/globe.png" alt="">
-                            <p style="font-weight:bold ;">Free </p>
+                            <p style="font-weight:bold ; color:black;">Free </p>
                             <p>Domain name</p>
                         </li>
                         <li><img src="./images/carlimg/headset.png" alt="">
-                            <p style="font-weight:bold ;">24/7 </p>
+                            <p style="font-weight:bold ; color:black;">24/7 </p>
                             <p>Technical support</p>
                         </li>
                         <li><img src="./images/carlimg/upload.png" alt="">
-                            <p style="font-weight:bold ;">99.9% </p>
+                            <p style="font-weight:bold ; color:black;">99.9% </p>
                             <p>Up time Guarantee</p>
                         </li>
                     </ul>
@@ -124,9 +224,10 @@
 
             <div class="col-3 col-md-3 col-12 ms-0 col-sm-12 ms-sm-0 ms-md-4 ms-lg-4 mt-3 mt-sm-4  mt-lg-0 mt-md-0 car1 align-items-center">
                 <div class="sec3inner">
+                    <div class="hr"><hr/></div> 
 
                     <div class="sec3headdata">
-                        <img class="Cart-head-image" src="./images/Group 44.png" alt="">
+                        <img class="Cart-head-image" src="./images/Group 20.png" alt="">
 
 
                         <h4>$ 5.99<sub>/mo</sub></h4>
@@ -144,31 +245,31 @@
 
                     <ul class="sec2clist">
                         <li><img src="./images/carlimg/hard-drive.png" alt="">
-                            <p style="font-weight:bold ;">50GB</p>
+                            <p style="font-weight:bold ; color:black;">50GB</p>
                             <p>SSD Disk space</p>
                         </li>
                         <li><img src="./images/carlimg/wifi.png" alt="">
-                            <p style="font-weight:bold ;">Unmetered </p>
+                            <p style="font-weight:bold ; color:black;">Unmetered </p>
                             <p>bandwidth</p>
                         </li>
                         <li><img src="./images/carlimg/browser.png" alt="">
-                            <p style="font-weight:bold ;">Host2 </p>
+                            <p style="font-weight:bold ; color:black;">Host2 </p>
                             <p>Websites hosted</p>
                         </li>
                         <li><img src="./images/carlimg/mail-bulk.png" alt="">
-                            <p style="font-weight:bold ;">Unlimited </p>
+                            <p style="font-weight:bold ; color:black;">Unlimited </p>
                             <p>Emails Account</p>
                         </li>
                         <li><img src="./images/carlimg/globe.png" alt="">
-                            <p style="font-weight:bold ;">Free </p>
+                            <p style="font-weight:bold ; color:black;">Free </p>
                             <p>Domain name</p>
                         </li>
                         <li><img src="./images/carlimg/headset.png" alt="">
-                            <p style="font-weight:bold ;">24/7 </p>
+                            <p style="font-weight:bold ; color:black;">24/7 </p>
                             <p>Technical support</p>
                         </li>
                         <li><img src="./images/carlimg/upload.png" alt="">
-                            <p style="font-weight:bold ;">99.9% </p>
+                            <p style="font-weight:bold ; color:black;">99.9% </p>
                             <p>Up time Guarantee</p>
                         </li>
                     </ul>
@@ -180,11 +281,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3 col-md-3 col-12 ms-0  col-sm-12 ms-sm-0 ms-md-4 mt-sm-4 mt-3  mt-lg-0 mt-md-0 ms-lg-4  car1 align-items-center">
+            <div
+                class="col-3 col-md-3 col-12 ms-0  col-sm-12 ms-sm-0 ms-md-4 mt-sm-4 mt-3  mt-lg-0 mt-md-0 ms-lg-4  car1 align-items-center">
                 <div class="sec3inner">
+                    <div class="hr"><hr/></div> 
 
                     <div class="sec3headdata">
-                        <img class="Cart-head-image" src="./images/Group 44.png" alt="">
+                        <img class="Cart-head-image" src="./images/Group 19.png" alt="">
 
 
                         <h4>$ 5.99<sub>/mo</sub></h4>
@@ -202,31 +305,31 @@
 
                     <ul class="sec2clist">
                         <li><img src="./images/carlimg/hard-drive.png" alt="">
-                            <p style="font-weight:bold ;">50GB</p>
+                            <p style="font-weight:bold ; color:black;">50GB</p>
                             <p>SSD Disk space</p>
                         </li>
                         <li><img src="./images/carlimg/wifi.png" alt="">
-                            <p style="font-weight:bold ;">Unmetered </p>
+                            <p style="font-weight:bold ; color:black;">Unmetered </p>
                             <p>bandwidth</p>
                         </li>
                         <li><img src="./images/carlimg/browser.png" alt="">
-                            <p style="font-weight:bold ;">Host2 </p>
+                            <p style="font-weight:bold ; color:black;">Host2 </p>
                             <p>Websites hosted</p>
                         </li>
                         <li><img src="./images/carlimg/mail-bulk.png" alt="">
-                            <p style="font-weight:bold ;">Unlimited </p>
+                            <p style="font-weight:bold ; color:black;">Unlimited </p>
                             <p>Emails Account</p>
                         </li>
                         <li><img src="./images/carlimg/globe.png" alt="">
-                            <p style="font-weight:bold ;">Free </p>
+                            <p style="font-weight:bold ; color:black;">Free </p>
                             <p>Domain name</p>
                         </li>
                         <li><img src="./images/carlimg/headset.png" alt="">
-                            <p style="font-weight:bold ;">24/7 </p>
+                            <p style="font-weight:bold ; color:black;">24/7 </p>
                             <p>Technical support</p>
                         </li>
                         <li><img src="./images/carlimg/upload.png" alt="">
-                            <p style="font-weight:bold ;">99.9% </p>
+                            <p style="font-weight:bold ; color:black;">99.9% </p>
                             <p>Up time Guarantee</p>
                         </li>
                     </ul>
@@ -245,263 +348,472 @@
     </div>
 
 
-
-   <div class="sec4start">
-    <h1>Best Hosting feature for you</h1>
-    <p class="para1">These feature comes standard in all our hosting plannes. Dynamicaly extended</p>
-    <p>Imperative through open-source quickly nichy market</p>
-    
-    <div class="container sec4cardM">
-        <div class="row">
-            <div class="col-3 offset-1 cardsec4">
-                <div class="sec4head"><img src="./images/sec4 img/.png" alt=""></div>
-                <h4>Custom control pannel</h4>
-                <p id="sec4-card-p">Our intutive control pannel gives you</p>
-                <p >admin access to all of yours</p>
-                <p >DreamHost product easily</p>
-            </div>
-            <div class="col-3 ms-4 cardsec4">
-                <div class="sec4head"><img src="./images/sec4 img/thumbs-up.png" alt=""></div>
-                <h4>Real life human beings</h4>
-                <p id="sec4-card-p">Tech veterans,greek and nerds all are </p>
-                <p> standing by to optimize your</p>
-                <p>experience Whether</p>
-            
-            </div>
-            <div class="col-3 ms-4  cardsec4">
-                <div class="sec4head"><img src="./images/sec4 img/mouse.png" alt=""></div>
-            <h4>1-click transfer</h4>
-            <p id="sec4-card-p">No need to digit into a bunch of</p>
-            <p> documents easily installed web app</p>
-            <p>like wordpress jomia</p>
-            </div>
-
-            <div class="col-3 offset-1 mt-3 cardsec4">
-                <div class="sec4head"><img src="./images/sec4 img/clock-desk.png" alt=""></div>
-                <h4>100% upto Guarantee</h4>
-                <p id="sec4-card-p">With multiple datacenters,location</p>
-                <p>redundant cooling emergency</p>
-                <p>generator and monitoring</p>
-            </div>
-
-            
-            <div class="col-3 ms-4 mt-3 cardsec4">
-                <div class="sec4head"><img src="./images/sec4 img/hard-drive.png" alt=""></div>
-                <h4>Solid State Drive (SSD)</h4>
-                <p id="sec4-card-p">With SSD your website catching,and </p>
-                <p> database query are faster by our</p>
-                <p>calculations</p>
-            </div>
-             
-            <div class="col-3 mt-3 ms-4 cardsec4">
-                <div class="sec4head"><img src="./images/sec4 img/trophy.png" alt=""></div>
-                <h4>1-click transfer</h4>
-                <p id="sec4-card-p">No need to digit into a bunch of</p>
-                <p> documents easily installed web app</p>
-                <p>like wordpress jomia</p>
-            </div>
-
-
-            
-          
-        </div>
-    </div>
-
-
-
-   </div>
-
-
-  
-
-    <!-- <div class="section4">
+   <!-- section 4 -->
+    <div class="sec4start">
         <h1>Best Hosting feature for you</h1>
         <p class="para1">These feature comes standard in all our hosting plannes. Dynamicaly extended</p>
         <p>Imperative through open-source quickly nichy market</p>
-        <div class="cardsec4upper">
-            <div class="cards">
-                <div class="sec4head"><img src="./images/sec4 img/.png" alt=""></div>
-                <h4>Custom control pannel</h4>
-                <p class="sec4-card-p">Our intutive control pannel gives you</p>
-                <p>admin access to all of yours</p>
-                <p>DreamHost product easily</p>
-        
-        
-        </div>
-            <div class="cards">
-                <div class="sec4head"><img src="./images/sec4 img/thumbs-up.png" alt=""></div>
-                <h4>Real life human beings</h4>
-                <p class="sec4-card-p">Tech veterans,greek and nerds all are </p>
-                <p> standing by to optimize your</p>
-                <p>experience Whether</p>
-        </div>
-            <div class="cards"><div class="sec4head"><img src="./images/sec4 img/mouse.png" alt=""></div>
-            <h4>1-click transfer</h4>
-            <p class="sec4-card-p">No need to digit into a bunch of</p>
-            <p> documents easily installed web app</p>
-            <p>like wordpress jomia</p>
-        
-        </div>
-        
-        </div>
 
-        <div class="cardsec4lower">
+        <div class="container sec4cardM">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-sm-12  col-10 offset-1 offset-sm-0 offset-md-1 offset-lg-1 cardsec4">
+                    <div class="sec4head"><img src="./images/sec4 img/.png" alt=""></div>
+                    <h4>Custom control pannel</h4>
+                    <p id="sec4-card-p">Our intutive control pannel gives you</p>
+                    <p>admin access to all of yours</p>
+                    <p>DreamHost product easily</p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-12  col-10 offset-1 offset-sm-0 offset-md-0 ms-md-3 ms-lg-3 offset-lg-0 cardsec4 mt-3 mt-sm-3 mt-md-0 mt-lg-0">
+                    <div class="sec4head"><img src="./images/sec4 img/thumbs-up.png" alt=""></div>
+                    <h4>Real life human beings</h4>
+                    <p id="sec4-card-p">Tech veterans,greek and nerds all are </p>
+                    <p> standing by to optimize your</p>
+                    <p>experience Whether</p>
 
-            <div class="cards">
-                <div class="sec4head"><img src="./images/sec4 img/clock-desk.png" alt=""></div>
-                <h4>100% upto Guarantee</h4>
-                <p class="sec4-card-p">With multiple datacenters,location</p>
-                <p>redundant cooling emergency</p>
-                <p>generator and monitoring</p>
-        
-        
-        </div>
-            <div class="cards">
-                <div class="sec4head"><img src="./images/sec4 img/hard-drive.png" alt=""></div>
-                <h4>Solid State Drive (SSD)</h4>
-                <p class="sec4-card-p">With SSD your website catching,and </p>
-                <p> database query are faster by our</p>
-                <p>calculations</p>
-        </div>
-            <div class="cards"><div class="sec4head"><img src="./images/sec4 img/trophy.png" alt=""></div>
-            <h4>Award Winning support</h4>
-            <p class="sec4-card-p">No question is so simple or too</p>
-            <p> complex for our team of experts</p>
-            <p>synergistically synergize.</p>
-        
-        </div>
-        
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-12  col-10 offset-1 offset-sm-0 offset-md-0 ms-md-3 ms-lg-3 offset-lg-0 cardsec4 mt-3 mt-sm-3 mt-md-0 mt-lg-0">
+                    <div class="sec4head"><img src="./images/sec4 img/mouse.png" alt=""></div>
+                    <h4>1-click transfer</h4>
+                    <p id="sec4-card-p">No need to digit into a bunch of</p>
+                    <p> documents easily installed web app</p>
+                    <p>like wordpress jomia</p>
+                </div>
 
-        </div>
-    
-    </div> -->
+                <div class="col-md-3 col-lg-3 col-sm-12  col-10 offset-1 offset-sm-0 offset-md-1 offset-lg-1 mt-3 mt-sm-3 mt-md-3 mt-lg-3 cardsec4">
+                    <div class="sec4head"><img src="./images/sec4 img/clock-desk.png" alt=""></div>
+                    <h4>100% upto Guarantee</h4>
+                    <p id="sec4-card-p">With multiple datacenters,location</p>
+                    <p>redundant cooling emergency</p>
+                    <p>generator and monitoring</p>
+                </div>
 
 
-    <!-- <div class="section5">
+                <div class="col-md-3 col-lg-3 col-sm-12  col-10 offset-1 offset-sm-0 offset-md-0 ms-md-3 ms-lg-3 offset-lg-0 mt-3 mt-sm-3 mt-md-3 mt-lg-3 cardsec4">
+                    <div class="sec4head"><img src="./images/sec4 img/hard-drive.png" alt=""></div>
+                    <h4>Solid State Drive (SSD)</h4>
+                    <p id="sec4-card-p">With SSD your website catching,and </p>
+                    <p> database query are faster by our</p>
+                    <p>calculations</p>
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-sm-12  col-10 offset-1 offset-sm-0 offset-md-0 ms-md-3 ms-lg-3 offset-lg-0 mt-3 mt-sm-3 mt-md-3 mt-lg-3 cardsec4">
+                    <div class="sec4head"><img src="./images/sec4 img/trophy.png" alt=""></div>
+                    <h4>1-click transfer</h4>
+                    <p id="sec4-card-p">No need to digit into a bunch of</p>
+                    <p> documents easily installed web app</p>
+                    <p>like wordpress jomia</p>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <!-- section 5 -->
+<div class="contact-main">
+    <div class=" container section5">
 
         <div class="sec5left">
-            <h1 >Need someone help ?</h1>
+            <h1>Need someone help ?</h1>
             <h1 class="sec5head">24/7 Expert Hosting Support</h1>
             <h1>Our Customer Love </h1>
             <p class="sec5para">Objectively innovate high compellingly maintain progressilvely</p>
             <p>persue mission-critical information quality imperative</p>
             <div class="sec5contact">
-            <ul>
-                <li> <img src="./images/sec5img/phone.png" alt=""> +88 0145 789 456</li>
-                <li><img src="./images/sec5img/chat.png" alt="">Chat Now..</li>
-            </ul>
-        </div>
-        </div>
+                <ul>
+                    <li> <img src="./images/sec5img/phone.png" alt=""><label for="">+88 0145 789 456</label></p>
+                    </li>
+                    <li><img src="./images/sec5img/chat.png" alt=""><label>Contact Now</label></li>
+                </ul>
+            </div>
 
+
+        </div>
         <div class="sec5right">
             <img class="sec5vector1" src="./images/sec5img/vector1.png" alt="">
         </div>
     </div>
- 
+</div>
+
+   <!-- sectoion 6 -->
+
     <div class="section6">
         <div class="sec6head">
-        <h2>Frequently Ask Queries</h2>
-        <p class="sec6para">Effectively productive reliable paradigms before ubiquitous models.continually utilize </p>
-        <p>frictional less expertise wherase tactical releation ship still love questions? contact us</p>
-    
-       </div>
-       <div class="sec6card1"><p>I have a wordpress site hosted somewhere else,can i move it to CHS.</p>
-      <img src="./images/sec6img/-.png" alt=""></div>
-
-     
-    
-    <div class="description-1">
-        <p>Nihil anim keffiyeh halvetica,craft beer labour wes anderson cred nesciunt sapiente ea prodient. Ad vegan excepteur butcher vice lamo.
-        Leggings accaecat craft beer farm-to-table denim aesthetic synth nesciunt you probably haven't heard of the accusamus labour sustainable VHS. </p>
-        </div>
-        <div class="sec6card2">
-            
-            <p>What is the difference between WordPress hosting and shared web hosting</p>
-        
-       <img src="./images/sec6img/+.png" alt="">
-       
-        </div>
-        <div class="sec6card2">
-           
-            <p style="color:#5B5858 ;">How do i know what WordPress Hosting plan is best for me?</p>
-    
-        <img src="./images/sec6img/+.png" alt="">
-        
-        </div>
-
-        <div class="sec6card2">
-            
-            <p style="color:#5B5858 ;">Is email included with wordpress Hosting</p>
-        
-        <img src="./images/sec6img/+.png" alt="">
-       
-        </div>
-
-        
-  
-
-
-    
-    </div>
-
-
-    <div class="section7">
-        <div class="sec7left">
-            <h2 > Trusted By Client</h2>
-            <h2>And Industry Experts</h2>
-            <p>uniquely repurpose stategic core <br>
-               competencies with prograssive content.<br>
-               Assertively transition ethical imperatives and
-               collabrativw
+            <h2>Frequently Ask Queries</h2>
+            <p class="sec6para">Effectively productive reliable paradigms before ubiquitous models.continually utilize
             </p>
-            <button class="btn-l"> Write About us</button>
-        </div>
-        <div class="sec7rightcart">
-        <div class="sec7car1">
-            <h4>Amazing template</h4>
-            <p>Distinctively foster maintainable metrics <br>
-            wherase multidisciplinary process<br>
-            improvments.Objectively implement<br> strategic niches through
-            </p>
-            <div class="mainusersec">
-            <div class="user">
-            <img src="./images/sec7/IMAGE (1).png" alt="">
-            <div class="greendot"><p>"</p></div>
-            <div class="name"><h5>Ana joly</h5>
-            <h6>BizBite </h6>
-            </div>
-          
-        </div>
-       
-    </div>
-            
+            <p>frictional less expertise wherase tactical releation ship still love questions? contact us</p>
+
         </div>
 
-        <div class="sec7car1">
-            <h4>Best tamplet for app</h4>
-            <p>Efficiently innovate customized growth. <br>
-            strategies wherase error-free-paradigms.<br>
-            Monotonectally enhance stand-alone data with<br>
-            prospective innovation.
-            </p>
-            <div class="user">
-            <img src="./images/sec7/IMAGE 2.png" alt="">
-            <div class="greendot"><p>"</p></div>
-            <div class="name"><h5>Tony Roy</h5>
-                <h6>BizBite </h6>
+        <!-- Accordians sec6  -->
+
+        <div class="container accmain ">
+            <div class="accordion row  " id="accordionExample ">
+                <div class="accordion-item col-12 acccard   border-0">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button accbtn  " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="lol">
+                            <p class="avain">I have a wordpress site hosted somewhere else,can i move it to CHS.</p>
+
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body accbody">
+                            <p class=" fw-lighter">Nihil anim keffiyeh halvetica,craft beer labour wes anderson cred nesciunt sapiente ea prodient. Ad vegan excepteur butcher vice lamo.
+                                Leggings accaecat craft beer farm-to-table denim aesthetic synth nesciunt you probably haven't heard of the accusamus labour sustainable VHS. </p>
+                        </div>
+                    </div>
                 </div>
+                <div class="accordion-item col-12 acccard  border-0">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed accbtn2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <p>What is the difference between WordPress hosting and shared web hosting</p>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body accbody">
+                            <p> It is hidden by default, until the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item col-12  acccard  border-0">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed accbtn2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <p >How do i know what WordPress Hosting plan is best for me?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body accbody">
+                            <p> It is hidden by default, until the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="accordion-item col-12  acccard  border-0">
+                        <h2 class="accordion-header" id="headingfour">
+                            <button class="accordion-button collapsed accbtn2" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                <p >Is email included with wordpress Hosting</p>
+                            </button>
+                        </h2>
+                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body accbody">
+                 <p> It is hidden by default, until the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.</p>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+
+
         </div>
-        </div>
-    </div>
-    </div>
+          <!-- section 7 -->
+        
+                <div class="container-fluid section7">
+
+                    <div class="sec7left">
+                        <h2  > Trusted By Client</h2>
+                        <h2 >And Industry Experts</h2>
+                        <p>uniquely repurpose stategic core 
+                           competencies with prograssive content.
+                           Assertively transition ethical imperatives and
+                           collabrativw
+                        </p>
+                        <div class="endbtndiv">
+                        <button class="btnend"> Write About us</button>
+                    </div>
+                    </div>
+                  
+                
+                    <!-- <div class="sec7rightcart"> -->
+                        <div  id="carouselExampleIndicators" class="carousel slide corlg" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button id="btn-dot" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button id="btn-dot"  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button id="btn-dot"  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item  " id="lastcard">
+                                <div class="carousel-item active ">
+                                    <div id="lastcard">
+                       <div class="sec7card1">
+
+                        <h4>Amazing template</h4>
+                        <p>Distinctively foster maintainable metrics <br>
+                        wherase multidisciplinary process<br>
+                        improvments.Objectively implement<br> strategic niches through
+                        </p>
+                        <div class="mainusersec">
+                        <div class="user">
+                        <img src="./images/sec7/IMAGE (1).png" alt="">
+                        <div class="greendot"><p>"</p>
+                        </div>
+                        <div class="name">
+                            <h5>Ana joly</h5>
+                        <h6>BizBite </h6>
+                        </div>
+                      
+                    </div>
+
+                       </div>
+                   
+
+
+                        
+                    </div>
+                    <div class="sec7card1">
+                        <h4>Best tamplet for app</h4>
+                        <p>Efficiently innovate customized growth. <br>
+                        strategies wherase error-free-paradigms.<br>
+                        Monotonectally enhance stand-alone data with<br>
+                        prospective innovation.
+                        </p>
+                        <div class="mainusersec">
+                        <div class="user">
+                        <img src="./images/sec7/IMAGE 2.png" alt="">
+                        <div class="greendot"><p>"</p>
+                        </div>
+                        <div class="name"><h5>Tony Roy</h5>
+                            <h6>BizBite </h6>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                    </div>
+
+
+                    <div class="carousel-item  ">
+                        <div id="lastcard">
+                        <div class="sec7card1">
+ 
+                         <h4>Amazing template</h4>
+                         <p>Distinctively foster maintainable metrics <br>
+                         wherase multidisciplinary process<br>
+                         improvments.Objectively implement<br> strategic niches through
+                         </p>
+                         <div class="mainusersec">
+                         <div class="user">
+                         <img src="./images/sec7/IMAGE (1).png" alt="">
+                         <div class="greendot"><p>"</p>
+                         </div>
+                         <div class="name">
+                             <h5>Ana joly</h5>
+                         <h6>BizBite </h6>
+                         </div>
+                       
+                     </div>
+ 
+                        </div>
+                    
+ 
+ 
+                         
+                     </div>
+                     <div class="sec7card1">
+                         <h4>Best tamplet for app</h4>
+                         <p>Efficiently innovate customized growth. <br>
+                         strategies wherase error-free-paradigms.<br>
+                         Monotonectally enhance stand-alone data with<br>
+                         prospective innovation.
+                         </p>
+                         <div class="mainusersec">
+                         <div class="user">
+                         <img src="./images/sec7/IMAGE 2.png" alt="">
+                         <div class="greendot"><p>"</p>
+                         </div>
+                         <div class="name"><h5>Tony Roy</h5>
+                             <h6>BizBite </h6>
+                             </div>
+                         </div>
+                     </div>
+                     </div>
+                    </div>
+                     </div>
+
+
+
+                     <div class="carousel-item  ">
+                        <div id="lastcard">
+                        <div class="sec7card1">
+ 
+                         <h4>Amazing template</h4>
+                         <p>Distinctively foster maintainable metrics <br>
+                         wherase multidisciplinary process<br>
+                         improvments.Objectively implement<br> strategic niches through
+                         </p>
+                         <div class="mainusersec">
+                         <div class="user">
+                         <img src="./images/sec7/IMAGE (1).png" alt="">
+                         <div class="greendot"><p>"</p>
+                         </div>
+                         <div class="name">
+                             <h5>Ana joly</h5>
+                         <h6>BizBite </h6>
+                         </div>
+                       
+                     </div>
+ 
+                        </div>
+                    
+ 
+ 
+                         
+                     </div>
+                     <div class="sec7card1">
+                         <h4>Best tamplet for app</h4>
+                         <p>Efficiently innovate customized growth. <br>
+                         strategies wherase error-free-paradigms.<br>
+                         Monotonectally enhance stand-alone data with<br>
+                         prospective innovation.
+                         </p>
+                         <div class="mainusersec">
+                         <div class="user">
+                         <img src="./images/sec7/IMAGE 2.png" alt="">
+                         <div class="greendot"><p>"</p>
+                         </div>
+                         <div class="name"><h5>Tony Roy</h5>
+                             <h6>BizBite </h6>
+                             </div>
+                         </div>
+                     </div>
+                     </div>
+                    </div>
+                     </div>
+ 
+ 
+ 
+ 
+
+
+                 
+                </div>
+                </div>
+                </div>
+
+
+
+
+
+                <!-- mediasinglecor                     -->
+
+                <div id="carouselExampleSlidesOnly" class="carousel slide cormedia  " data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div id="lastcardmedia">
+                            <div class="sec7cardmedia">
+                                <h4>Best tamplet for app</h4>
+                                <p>Efficiently innovate customized growth. <br>
+                                strategies wherase error-free-paradigms.<br>
+                                Monotonectally enhance stand-alone data with<br>
+                                prospective innovation.
+                                </p>
+                                <div class="mainusersecmeia">
+                                <div class="user">
+                                <img src="./images/sec7/IMAGE (1).png" alt="">
+                                <div class="greendot"><p>"</p>
+                                </div>
+                                <div class="name"><h5>Anna joly</h5>
+                                    <h6>BizBite </h6>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                           
+                         </div>
+     
+                            </div>
+                            </div>
+
+                            <div class="carousel-item ">
+                                <div id="lastcardmedia">
+                                    <div class="sec7cardmedia">
+                                        <h4>Best tamplet for app</h4>
+                                        <p>Efficiently innovate customized growth. <br>
+                                        strategies wherase error-free-paradigms.<br>
+                                        Monotonectally enhance stand-alone data with<br>
+                                        prospective innovation.
+                                        </p>
+                                        <div class="mainusersecmeia">
+                                        <div class="user">
+                                        <img src="./images/sec7/IMAGE 2.png" alt="">
+                                        <div class="greendot"><p>"</p>
+                                        </div>
+                                        <div class="name"><h5>Tony roy</h5>
+                                            <h6>BizBite </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                   
+                                 </div>
+             
+                                    </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                             
+                        
+<!--                       
+                    
+                      <div class="carousel-item">
+                        <h1>hey</h1>
+                      </div> -->
+                   
+                    
+                    <!-- END ALL -->
+
+
+
+
+
+                   
+         
+      
+        
+        
+
+
+
+ 
+   
+
    
 
 
-<!-- bootstrapscript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+            <script src="app.js"></script>
+
 
 </body>
 
